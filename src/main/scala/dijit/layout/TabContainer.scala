@@ -11,7 +11,7 @@ trait TabContainer extends DojoComponent {
 
 object TabContainer {
   def apply(region: String)(tabContainer: js.Dynamic) = jsnew(tabContainer)(js.Dictionary("region" -> region)).asInstanceOf[TabContainer]
-  val require = "layout/TabContainer"
+  val require = "dijit/layout/TabContainer"
 }
 
 

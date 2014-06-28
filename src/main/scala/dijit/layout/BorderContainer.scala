@@ -11,7 +11,7 @@ trait BorderContainer extends DojoComponent {
 
 object BorderContainer {
   def apply(id: String)(borderContainer: js.Dynamic) = jsnew(borderContainer)(js.Dictionary(), id).asInstanceOf[BorderContainer]
-  val require = "layout/BorderContainer"
+  val require = "dijit/layout/BorderContainer"
 }
 
 

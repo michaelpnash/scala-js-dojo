@@ -16,7 +16,7 @@ trait ContentPane extends DojoComponent {
 
 object ContentPane {
   def apply(id: String)(implicit contentPane: js.Dynamic) = jsnew(contentPane)(js.Dictionary("id" -> id)).asInstanceOf[ContentPane]
-  val require = "layout/ContentPane"
+  val require = "dijit/layout/ContentPane"
 }
 
 
